@@ -1,5 +1,5 @@
-function sumFunction() {
-    var addition = 5 + 2;
-    document.getElementById("Math") .innerHTML = "5 + 2 = " + addition;
+function subtractionFunction() {
+    var subtraction = 333 - 330;
+    document.getElementById("Math") .innerHTML = "333 - 330 = " + subtraction;
 
 }
