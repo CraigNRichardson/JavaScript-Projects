@@ -1,4 +1,4 @@
-function multiplemathFunction() {
-    var multiplemath = 8 / 2 * (2+2);
-    document.getElementById("Math") .innerHTML = "8 divided by 2, times 2 + 2 equals " + multiplemath;
+function modulusFunction() {
+    var modulus = 8 % 3;
+    document.getElementById("Math") .innerHTML = "The remainder of 8 divided by 3 is " + modulus;
 }
