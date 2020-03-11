@@ -7,5 +7,6 @@ function my_Dictionary() {
         PoliticalParty:"Democratic Republican",
         PlaceOfBirth:"DRC"
     };
+    delete ThomasJefferson.PlaceOfBirth;
     document.getElementById("Dictionary") .innerHTML = ThomasJefferson.PlaceOfBirth;
 }
