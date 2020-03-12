@@ -1,7 +1,4 @@
-function randomFunction() {
-    var x = (Math.random() * 100);
-    document.getElementById("Math") .innerHTML = "Your random number is: " + Math.floor(x);
-}
+
 
 function SumFunction() {
     var sum = 70 + .7;
@@ -45,4 +42,9 @@ function decrement() {
     for(var b=10; b >= 1; b--) {
         document.getElementById("MathDec") .innerHTML = b;
 }
+}
+
+function randomFunction() {
+    var x = (Math.random() * 100);
+    document.getElementById("Math") .innerHTML = "Your random number is: " + Math.floor(x);
 }
