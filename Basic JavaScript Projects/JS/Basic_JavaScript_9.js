@@ -40,3 +40,13 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+function countten() {
+    var Digit = "";
+    var X = 1;
+    while (X < 101) {
+        Digit += "<br>" + X;
+        X++;
+    }
+    document.getElementById("counting").innerHTML = Digit;
+    }
