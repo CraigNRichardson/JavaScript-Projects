@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JavaScript/JavaScript_1.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Who is your favorite US President?</h1>
+    <h3>Pick your favorite president from this list:</h3>
+    <select id="presidents">
+        <option value="George Washington">George Washington</option>
+        <option value="John Adams">John Adams</option>
+        <option value="Thomas Jefferson">Thomas Jefferson</option>
+        <option value="James Madison">James Madison</option>
+    </select>
+    <button onclick="favFunction()">Submit</button>
+    <p id="output"></p>
+    <br>
+    
+    <p>Click the button below to reveal each president's vice president(s)</p>
+    <h4 class="change">George Washington</h4>
+    <h4 class="change">John Adams</h4>
+    <h4 class="change">Thomas Jefferson</h4>
+    <h4 class="change">James Madison</h4>
+    <button onclick="vpFunction()">Reveal VPs!</button>
+    <br>
+    <br>
+    <br>
+    <canvas id="can" width="570" height="340" style="border:5px solid red"></canvas>
+    <br>
+    <canvas id="gradcan" width="570" height="340" style="border:5px solid red"></canvas>
+
+    
+</body>
+</html>
